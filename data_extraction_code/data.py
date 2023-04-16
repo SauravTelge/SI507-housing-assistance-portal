@@ -48,6 +48,7 @@ from selenium.webdriver.support import expected_conditions as EC #error handling
 from selenium.common.exceptions import TimeoutException #timeout if not found
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+import json
 # initialise chrome driver
 options = webdriver.ChromeOptions()
 options.add_argument('--ignore-certificate-errors')
@@ -73,11 +74,20 @@ for i in range(1,count1+1):
    
     univ.append([univ_name,univ_town,univ_rank])
 
-# sort the list of list according to country names
+# sort the list according to university names
 univ.sort()
-# store all the details in a csv
+# store all the details in a CSV
 with open("universities.csv", 'w') as myfile:
     for row in univ:
         for x in row:
             myfile.write(str(x) + ',')
         myfile.write('\n')
+
+# store all the details in a JSON
+with open("universities.json", 'w') as myfile:
+    myfile.write(json.dumps(univ,indent = 4))
+
+with open('universities.json','r') as myfile:  
+  data = json.load(myfile)  
+print(data)
+

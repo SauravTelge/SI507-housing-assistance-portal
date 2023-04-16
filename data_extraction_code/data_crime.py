@@ -34,13 +34,18 @@ for i in range(1,count-1):
     crimes_per_day = driver.find_element(By.XPATH,f"/html/body/div[6]/table/tbody/tr[{i}]/td[11]").get_attribute("innerHTML")
     crime.append({'city name':city_name,'State':city_state,'City rank':city_rank,'Crimes per day':crimes_per_day})
 
-# sort the list of list according to country names
-# crime.sort()
-# store all the details in a csv
+
+# store all the details in a CSV
 with open("crimes.json", 'w') as myfile:
-    # for row in crime:
-    #     for x in row:
-    #         myfile.write(str(x) + ',')
-    #     myfile.write('\n')
+    for row in crime:
+        for x in row:
+            myfile.write(str(x) + ',')
+        myfile.write('\n')
+   
+# store all the details in a JSON
+with open("crimes.json", 'w') as myfile:
     myfile.write(json.dumps(crime,indent = 4))
 
+with open('crimes.json','r') as myfile:  
+  data = json.load(myfile)  
+print(data)

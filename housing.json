@@ -1,0 +1,156 @@
+{
+    "Version": 1,
+    "Country Name": "United States",
+    "City Name": "Miami Fl",
+    "Cost of Living Month Total": "1170.65",
+    "Currency": "USD",
+    "Note": "Total cost of living in Miami for two person with average consumption for one month will be 1170.65 USD, no rent price included",
+    "Status": 200,
+    "Success": true,
+    "Restaurants prices": [
+        {
+            "Cost": "Meal in Inexpensive Restaurant",
+            "Value": "15.00"
+        },
+        {
+            "Cost": "Meal for 2 People, Mid-range Restaurant, Three-course",
+            "Value": "65.00"
+        },
+        {
+            "Cost": "McMeal at McDonalds or Alternative Combo Meal",
+            "Value": "8.00"
+        },
+        {
+            "Cost": "Cappuccino",
+            "Value": "4.21"
+        }
+    ],
+    "Markets prices": [
+        {
+            "Cost": "Eggs, 12 pack",
+            "Value": "2.78"
+        },
+        {
+            "Cost": "Lettuce, 1 head",
+            "Value": "2.02"
+        },
+        {
+            "Cost": "Water, 1.5 liter Bottle",
+            "Value": "1.89"
+        },
+        {
+            "Cost": "Bottle of Wine, Mid-Range Price",
+            "Value": "10.99"
+        },
+        {
+            "Cost": "Domestic Beer, 0.5 liter Bottle",
+            "Value": "2.65"
+        },
+        {
+            "Cost": "Pack of Cigarettes",
+            "Value": "7.50"
+        }
+    ],
+    "Transportation prices": [
+        {
+            "Cost": "One-way Ticket, Local Transport",
+            "Value": "2.25"
+        },
+        {
+            "Cost": "Monthly Pass, Regular Price",
+            "Value": "112.50"
+        },
+        {
+            "Cost": "Taxi Start, Normal Tariff",
+            "Value": "3.00"
+        },
+        {
+            "Cost": "Taxi, price for 1 hour Waiting, Normal Tariff",
+            "Value": "24.00"
+        },
+        {
+            "Cost": "Volkswagen Golf 1.4 90 KW Trendline (Or Equivalent New Car)",
+            "Value": "23,500.00"
+        }
+    ],
+    "Utilities Per Month prices": [
+        {
+            "Cost": "Prepaid Mobile Tariff Local, price per 1 min, No Discounts or Plans",
+            "Value": "0.19"
+        },
+        {
+            "Cost": "Internet, 60 Mbps or More, Unlimited Data, Cable/ADSL",
+            "Value": "66.02"
+        }
+    ],
+    "Sports And Leisure prices": [
+        {
+            "Cost": "Fitness Club, Monthly Fee for 1 Adult",
+            "Value": "48.13"
+        },
+        {
+            "Cost": "Tennis Court Rent, 1 Hour on Weekend",
+            "Value": "15.29"
+        }
+    ],
+    "Salaries And Financing prices": [
+        {
+            "Cost": "Cinema ticket, 1 Seat",
+            "Value": "15.00"
+        },
+        {
+            "Cost": "Average Monthly Net Salary, After Tax",
+            "Value": "3,521.38"
+        },
+        {
+            "Cost": "Mortgage Interest Rate in Percentages for 20 Years Fixed-Rate, Yearly, Fixed-Rate",
+            "Value": "4.06 %"
+        }
+    ],
+    "Childcare prices": [
+        {
+            "Cost": "Private Preschool or Kindergarten, Monthly for 1 Child",
+            "Value": "851.36"
+        },
+        {
+            "Cost": "International Primary School, Yearly for 1 Child",
+            "Value": "22,200.00"
+        }
+    ],
+    "Clothing And Shoes prices": [
+        {
+            "Cost": "Pair of Jeans in a Chain Store Like George, H&M, Zara, etc.",
+            "Value": "47.20"
+        },
+        {
+            "Cost": "Summer Dress in a Chain Store Like George, H&M, Zara, etc.",
+            "Value": "38.91"
+        },
+        {
+            "Cost": "Pair of Running Shoes, Mid-Range Price",
+            "Value": "85.27"
+        },
+        {
+            "Cost": "Pair of Leather Business Shoes",
+            "Value": "102.92"
+        }
+    ],
+    "Rent Per Month prices": [
+        {
+            "Cost": "One bedroom apartment in city centre",
+            "Value": "1,876.05"
+        },
+        {
+            "Cost": "One bedroom apartment outside of city centre",
+            "Value": "1,314.79"
+        },
+        {
+            "Cost": "Three bedroom apartment in city centre",
+            "Value": "3,589.27"
+        },
+        {
+            "Cost": "Three bedroom apartment outside of city centre",
+            "Value": "2,495.90"
+        }
+    ]
+}
