@@ -28,18 +28,6 @@ class BSTNode:
             return
         self.right = BSTNode(val,key)
 
-    def get_min(self):
-        current = self
-        while current.left is not None:
-            current = current.left
-        return current.val
-
-    def get_max(self):
-        current = self
-        while current.right is not None:
-            current = current.right
-        return current.val
-
     def delete(self, val,key):
         if self == None:
             return self
@@ -74,6 +62,17 @@ class BSTNode:
         if self.right == None:
             return False
         return self.right.exists(val,key)
+    def get_min(self):
+        current = self
+        while current.left is not None:
+            current = current.left
+        return current.val
+
+    def get_max(self):
+        current = self
+        while current.right is not None:
+            current = current.right
+        return current.val
 
     def preorder(self, vals):
         if self.val is not None:
