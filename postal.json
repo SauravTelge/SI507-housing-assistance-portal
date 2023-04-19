@@ -1,0 +1,222 @@
+[
+    {
+        "state": "Alabama",
+        "postal": "AL"
+    },
+    {
+        "state": "Alaska",
+        "postal": "AK"
+    },
+    {
+        "state": "Arizona",
+        "postal": "AZ"
+    },
+    {
+        "state": "Arkansas",
+        "postal": "AR"
+    },
+    {
+        "state": "California",
+        "postal": "CA"
+    },
+    {
+        "state": "Canal Zone",
+        "postal": "CZ"
+    },
+    {
+        "state": "Colorado",
+        "postal": "CO"
+    },
+    {
+        "state": "Connecticut",
+        "postal": "CT"
+    },
+    {
+        "state": "Delaware",
+        "postal": "DE"
+    },
+    {
+        "state": "District of Columbia",
+        "postal": "DC"
+    },
+    {
+        "state": "Florida",
+        "postal": "FL"
+    },
+    {
+        "state": "Georgia",
+        "postal": "GA"
+    },
+    {
+        "state": "Guam",
+        "postal": "GU"
+    },
+    {
+        "state": "Hawaii",
+        "postal": "HI"
+    },
+    {
+        "state": "Idaho",
+        "postal": "ID"
+    },
+    {
+        "state": "Illinois",
+        "postal": "IL"
+    },
+    {
+        "state": "Indiana",
+        "postal": "IN"
+    },
+    {
+        "state": "Iowa",
+        "postal": "IA"
+    },
+    {
+        "state": "Kansas",
+        "postal": "KS"
+    },
+    {
+        "state": "Kentucky",
+        "postal": "KY"
+    },
+    {
+        "state": "Louisiana",
+        "postal": "LA"
+    },
+    {
+        "state": "Maine",
+        "postal": "ME"
+    },
+    {
+        "state": "Maryland",
+        "postal": "MD"
+    },
+    {
+        "state": "Massachusetts",
+        "postal": "MA"
+    },
+    {
+        "state": "Michigan",
+        "postal": "MI"
+    },
+    {
+        "state": "Minnesota",
+        "postal": "MN"
+    },
+    {
+        "state": "Mississippi",
+        "postal": "MS"
+    },
+    {
+        "state": "Missouri",
+        "postal": "MO"
+    },
+    {
+        "state": "Montana",
+        "postal": "MT"
+    },
+    {
+        "state": "Nebraska",
+        "postal": "NE"
+    },
+    {
+        "state": "Nevada",
+        "postal": "NV"
+    },
+    {
+        "state": "New Hampshire",
+        "postal": "NH"
+    },
+    {
+        "state": "New Jersey",
+        "postal": "NJ"
+    },
+    {
+        "state": "New Mexico",
+        "postal": "NM"
+    },
+    {
+        "state": "New York",
+        "postal": "NY"
+    },
+    {
+        "state": "North Carolina",
+        "postal": "NC"
+    },
+    {
+        "state": "North Dakota",
+        "postal": "ND"
+    },
+    {
+        "state": "Ohio",
+        "postal": "OH"
+    },
+    {
+        "state": "Oklahoma",
+        "postal": "OK"
+    },
+    {
+        "state": "Oregon",
+        "postal": "OR"
+    },
+    {
+        "state": "Pennsylvania",
+        "postal": "PA"
+    },
+    {
+        "state": "Puerto Rico",
+        "postal": "PR"
+    },
+    {
+        "state": "Rhode Island",
+        "postal": "RI"
+    },
+    {
+        "state": "South Carolina",
+        "postal": "SC"
+    },
+    {
+        "state": "South Dakota",
+        "postal": "SD"
+    },
+    {
+        "state": "Tennessee",
+        "postal": "TN"
+    },
+    {
+        "state": "Texas",
+        "postal": "TX"
+    },
+    {
+        "state": "Utah",
+        "postal": "UT"
+    },
+    {
+        "state": "Vermont",
+        "postal": "VT"
+    },
+    {
+        "state": "Virgin Islands",
+        "postal": "VI"
+    },
+    {
+        "state": "Virginia",
+        "postal": "VA"
+    },
+    {
+        "state": "Washington",
+        "postal": "WA"
+    },
+    {
+        "state": "West Virginia",
+        "postal": "WV"
+    },
+    {
+        "state": "Wisconsin",
+        "postal": "WI"
+    },
+    {
+        "state": "Wyoming",
+        "postal": "WY"
+    }
+]

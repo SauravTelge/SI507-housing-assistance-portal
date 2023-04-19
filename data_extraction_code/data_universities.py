@@ -72,10 +72,8 @@ for i in range(1,count1+1):
     univ_town=driver.find_element(By.XPATH,f"/html/body/div[2]/div/div[2]/div/table/tbody/tr[{i}]/td[3]").get_attribute("innerHTML")
     univ_rank=driver.find_element(By.XPATH,f"/html/body/div[2]/div/div[2]/div/table/tbody/tr[{i}]/td[1]/b").get_attribute("innerHTML")
    
-    univ.append([univ_name,univ_town,univ_rank])
+    univ.append({'university name':univ_name,'university town':univ_town,'university rank':univ_rank})
 
-# sort the list according to university names
-univ.sort()
 # store all the details in a CSV
 with open("universities.csv", 'w') as myfile:
     for row in univ:
