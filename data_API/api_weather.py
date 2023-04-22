@@ -14,10 +14,18 @@ class Weather:
 				"X-RapidAPI-Key": "74b52ccc3dmshc5135a0cc09a5bbp16423ejsnf1ae02f6dcea",
 				"X-RapidAPI-Host": "visual-crossing-weather.p.rapidapi.com"
 			}
-            response_forecast = requests.request("GET", url_forecast, headers=headers, params=querystring_forecast).json()
+            response_forecast = requests.request("GET", url_forecast, headers=headers, params=querystring_forecast)
             
-            response_history = requests.request("GET", url_history, headers=headers, params=querystring_history).json()
-            
+            response_history = requests.request("GET", url_history, headers=headers, params=querystring_history)
+            response_forecast = response_forecast.json()
+
+            response_history = response_history.json()
+            # store all the details in a JSON
+            with open("response_forecast.json", 'w') as myfile:
+                myfile.write(json.dumps(response_forecast,indent = 4))
+                # store all the details in a JSON
+            with open("response_history.json", 'w') as myfile:
+                myfile.write(json.dumps(response_history,indent = 4))
         
             return (response_forecast,response_history)
     

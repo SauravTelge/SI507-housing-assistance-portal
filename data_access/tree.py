@@ -1,5 +1,5 @@
 import json
-
+import pickle
 class BSTNode:
     def __init__(self, val=None,key = None):
         self.left = None
@@ -50,18 +50,19 @@ class BSTNode:
         self.right = self.right.delete(min_larger_node.val,min_larger_node.key)
         return self
 
-    def exists(self, val,key):
-        if val == self.val:
-            return True
-
-        if val < self.val:
+    def exists(self, key):
+       
+        if key == self.val[0]:
+            return self.val
+        
+        if key < self.val[0]:
             if self.left == None:
                 return False
-            return self.left.exists(val,key)
+            return self.left.exists(key)
 
         if self.right == None:
             return False
-        return self.right.exists(val,key)
+        return self.right.exists(key)
     def get_min(self):
         current = self
         while current.left is not None:
@@ -100,6 +101,9 @@ class BSTNode:
         if self.val is not None:
             vals.append([self.val,self.key])
         return vals
+    
+    def toJson(self):
+        return json.dumps(self, default=lambda o: o.__dict__)
 
 
 
@@ -130,13 +134,25 @@ class crimes(University):
 
     def data_tree_crimes():
         bst = BSTNode()
-        with open('crimes.json','r') as myfile:  
+        with open('crimes.json','r') as myfile:
             data = json.load(myfile)
 
         for i in range(len(data)):
 
-            bst.insert(int(data[i]['City rank']),data[i]['city name'])
+            bst.insert([data[i]['city name'],data[i]['Crimes per day'],data[i]['State']],int(data[i]['City rank']))
+        print(type(bst))
+        # with open("tree_crimes.json", 'w') as myfile:
+        #     myfile.write(json.dumps(bst.toJson(),indent = 4))
 
+        # with open('tree_crimes.json','r') as myfile:  
+        #     data = json.load(myfile)  
+        #     print(data)
+        with open(f'tree_crimes.pickle', 'wb') as f:
+            pickle.dump(bst, f)
+        with open(f'tree_crimes.pickle', 'rb') as f:
+            movie_tree = pickle.load(f)
+
+        print(movie_tree.preorder([]))
     data_tree_crimes()
 
 # class Weather():

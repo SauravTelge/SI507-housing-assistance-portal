@@ -1,0 +1,138 @@
+<table
+id="tbl1"
+class="table table-hover"
+cellspacing="0"
+width="100%"
+data-page-length="15"
+>
+<thead class="thead-dark">
+  <tr>
+    <th>Date Time</th>
+    <th>AQI</th>
+    <th>pm10</th>
+    <th>pm25</th>
+    <th>o3</th>
+    <th>so2</th>
+    <th>no2</th>
+    <th>co</th>
+  </tr>
+</thead>
+</table>
+
+<script>
+    let table = new DataTable('#myTable');
+
+
+    $(document).ready(function () {
+    document.getElementById("place").innerHTML="Mahul";
+    $("#tbl1").dataTable({
+      ajax: "../static/Mahul.txt",
+      retrieve: true,
+      columnDefs: [
+        {
+          /* changed this */ data: "datetime",
+        },
+        {
+          /* changed this */ data: "aqi",
+        },
+        {
+          data: "pm10",
+        },
+        {
+          data: "pm25",
+        },
+        {
+          data: "o3",
+        },
+        {
+          data: "so2",
+        },
+        {
+          data: "no2",
+        },
+        {
+          data: "co",
+        },
+      ],
+      dom: "Bfrtip",
+      buttons:  ["copy", {
+  extend: 'csv',
+  filename: "Mahul"
+}, {
+  extend: 'excel',
+  title: "Maul"
+},  {extend: "pdf",
+                className: "btn-sm btn-success",
+      title: "Mahul"
+      
+            },{
+            extend: "print",
+                className: "btn-sm btn-success",
+                
+            message: '<center><h4 style="margin-top:-40px;">Mahul</h4>\
+                        </center>',
+            customize: function ( win ) {
+                $(win.document.body).find( 'table' ).append('<br<br/><br><h4 class="">Air Quality Visualization</h4><br><br><h4 class="">Project Deep Blue AQV - 7</h4>');
+            }
+            }],
+    });
+  });
+
+  function tabs(x) {
+    console.log("in " + x);
+    var table = $("#tbl1").DataTable();
+    table.destroy();
+    document.getElementById("place").innerHTML=x;
+    $("#tbl1").dataTable({
+      ajax: "../static/"+x + ".txt",
+      retrieve: true,
+      columnDefs: [
+        {
+          /* changed this */ data: "datetime",
+        },
+        {
+          /* changed this */ data: "aqi",
+        },
+        {
+          data: "pm10",
+        },
+        {
+          data: "pm25",
+        },
+        {
+          data: "o3",
+        },
+        {
+          data: "so2",
+        },
+        {
+          data: "no2",
+        },
+        {
+          data: "co",
+        },
+      ],
+      dom: "Bfrtip",
+      buttons: ["copy", {
+  extend: 'csv',
+  filename: x
+}, {
+  extend: 'excel',
+  title: x
+},  {extend: "pdf",
+                className: "btn-sm btn-success",
+      title: x
+     
+            },{
+            extend: "print",
+                className: "btn-sm btn-success",
+                
+            message: '<center><h4 style="margin-top:-40px;">'+x+'</h4>\
+                        </center>',
+            customize: function ( win ) {
+                $(win.document.body).find( 'table' ).append('<br<br/><br><h4 class="">Air Quality Visualization</h4><br><br><h4 class="">Project Deep Blue AQV - 7</h4>');
+            }
+            }],
+    });
+  }
+</script>
