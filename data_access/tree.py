@@ -13,10 +13,10 @@ class BSTNode:
             self.key = key
             return
 
-        if self.val == val:
+        if self.key == key:
             return
 
-        if val < self.val:
+        if key < self.key:
             if self.left:
                 self.left.insert(val,key)
                 return
@@ -51,11 +51,12 @@ class BSTNode:
         return self
 
     def exists(self, key):
-       
-        if key == self.val[0]:
+        print('key',key)
+        print('stored key',self.key)
+        if key == self.key:
             return self.val
         
-        if key < self.val[0]:
+        if key < self.key:
             if self.left == None:
                 return False
             return self.left.exists(key)
@@ -106,69 +107,28 @@ class BSTNode:
         return json.dumps(self, default=lambda o: o.__dict__)
 
 
-
-class University():
-    def __init__(self)-> None:
-        self.university_name = None
-        self.city = None
-        self.overall_rank = None
-
-    def display(self,univ,city):
-        with open('universities.json','r') as myfile:  
-            data = json.load(myfile)  
-            print(data)
-
-        return (self.university_name,self.city,self.overall_rank)
-    
-
-
-class crimes(University):
-    def __init__(self) -> None:
-
-        # super.__init__()
-
-        self.city_name = None
-        self.city_crime_rate_rank = None
-        self.state = None
-        self.crime_rate_per_day = None
+class crimes:
 
     def data_tree_crimes():
         bst = BSTNode()
-        with open('crimes.json','r') as myfile:
+        with open('crimes_new.json','r') as myfile:
             data = json.load(myfile)
 
         for i in range(len(data)):
 
-            bst.insert([data[i]['city name'],data[i]['Crimes per day'],data[i]['State']],int(data[i]['City rank']))
-        print(type(bst))
+            bst.insert([data[i]['city name'],float(data[i]['Crimes per day']),data[i]['State']],int(data[i]['City rank']))
+       
         # with open("tree_crimes.json", 'w') as myfile:
         #     myfile.write(json.dumps(bst.toJson(),indent = 4))
 
-        # with open('tree_crimes.json','r') as myfile:  
-        #     data = json.load(myfile)  
-        #     print(data)
+        
         with open(f'tree_crimes.pickle', 'wb') as f:
             pickle.dump(bst, f)
-        with open(f'tree_crimes.pickle', 'rb') as f:
-            movie_tree = pickle.load(f)
+        # with open(f'tree_crimes.pickle', 'rb') as f:
+        #     crime_tree = pickle.load(f)
 
-        print(movie_tree.preorder([]))
+        # print(crime_tree.preorder([]))
     data_tree_crimes()
 
-# class Weather():
-#     def __init__(self) -> None:
-        
 
-class Housing():
-    def __init__(self) -> None:
-        # super.__init__()
-        self.rent = None
-        self.utilities = None
-        self.transportation = None
-        self.restaurant = None
-
-    def data_tree():
-        print('here')
-        with open('housing.json','r') as myfile:  
-            data = json.load(myfile)  
   

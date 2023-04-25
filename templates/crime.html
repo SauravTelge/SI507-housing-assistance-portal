@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing Assistance Portal</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <style>
+        table, th, td { border: 1px solid black; border-collapse: collapse; }
+        td, th {padding: 10px;}
+     </style>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+<body>
+    <div class="container text-center">
+        <h1>Crime data records</h1>
+    </div>
+    <form action="/data_crime" method="POST" enctype="multipart/form-data">
+        <!-- <label for="uniname">Enter university's name:</label> -->
+        <!-- <input type="text" id="crime" name="crime" placeholder="Search city according to crime rate" >
+       
+        <button type="submit" id="enter"><i class="fas fa-search"></i></button> -->
+        <div class=" container input-group mb-3" style="padding-top:20px;">
+            <input type="text" id="crime" name="crime" class="form-control" placeholder="Search city according to city rank" aria-label="Search city according to crime rate" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </div>
+          </div>
+    </form>
+    
+    <div class="container" id="container"></div>
+<br>
+
+
+    <script>
+let jsonData = {{data1|tojson}};
+         
+         // Get the container element where the table will be inserted
+         let container = $("#container");
+         
+         // Create the table element
+         let table = $("<table>");
+         
+         // Get the keys (column names) of the first object in the JSON data
+         let cols = Object.keys(jsonData[0]);
+         
+         // Create the header element
+         let thead = $("<thead>");
+         let tr = $("<tr>");
+         
+         // Loop through the column names and create header cells
+         $.each(cols, function(i, item){
+            let th = $("<th>");
+            th.text(item); // Set the column name as the text of the header cell
+            tr.append(th); // Append the header cell to the header row
+         });
+         thead.append(tr); // Append the header row to the header
+         table.append(tr) // Append the header to the table
+         
+         // Loop through the JSON data and create table rows
+         $.each(jsonData, function(i, item){
+         let tr = $("<tr>");
+            
+            // Get the values of the current object in the JSON data
+            let vals = Object.values(item);
+            
+            // Loop through the values and create table cells
+            $.each(vals, (i, elem) => {
+               let td = $("<td>");
+               td.text(elem); // Set the value as the text of the table cell
+               tr.append(td); // Append the table cell to the table row
+            });
+            table.append(tr); // Append the table row to the table
+         });
+         container.append(table) // Append the table to the container element
+    </script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

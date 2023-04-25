@@ -1,5 +1,5 @@
 
-
+import random
 # import all the required libraries
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -33,19 +33,14 @@ for i in range(1,count-1):
     city_rank=driver.find_element(By.XPATH,f"/html/body/div[6]/table/tbody/tr[{i}]/td[1]").get_attribute("innerHTML")
     crimes_per_day = driver.find_element(By.XPATH,f"/html/body/div[6]/table/tbody/tr[{i}]/td[11]").get_attribute("innerHTML")
     crime.append({'city name':city_name,'State':city_state,'City rank':city_rank,'Crimes per day':crimes_per_day})
+random.shuffle(crime)
 
 
-# store all the details in a CSV
-with open("crimes.json", 'w') as myfile:
-    for row in crime:
-        for x in row:
-            myfile.write(str(x) + ',')
-        myfile.write('\n')
    
 # store all the details in a JSON
-with open("crimes.json", 'w') as myfile:
+with open("crimes_new.json", 'w') as myfile:
     myfile.write(json.dumps(crime,indent = 4))
 
-with open('crimes.json','r') as myfile:  
+with open('crimes_new.json','r') as myfile:  
   data = json.load(myfile)  
 print(data)

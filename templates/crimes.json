@@ -1,0 +1,1052 @@
+[
+    {
+        "city name": "Memphis",
+        "State": "Tennessee",
+        "City rank": "1",
+        "Crimes per day": "31.19"
+    },
+    {
+        "city name": "Detroit",
+        "State": "Michigan",
+        "City rank": "2",
+        "Crimes per day": "21.74"
+    },
+    {
+        "city name": "South Bend",
+        "State": "Indiana",
+        "City rank": "3",
+        "Crimes per day": "3.35"
+    },
+    {
+        "city name": "Little Rock",
+        "State": "Arkansas",
+        "City rank": "4",
+        "Crimes per day": "8.66"
+    },
+    {
+        "city name": "Cleveland",
+        "State": "Ohio",
+        "City rank": "5",
+        "Crimes per day": "13.15"
+    },
+    {
+        "city name": "Milwaukee",
+        "State": "Wisconsin",
+        "City rank": "6",
+        "Crimes per day": "18.51"
+    },
+    {
+        "city name": "Lansing",
+        "State": "Michigan",
+        "City rank": "7",
+        "Crimes per day": "2.78"
+    },
+    {
+        "city name": "Chattanooga",
+        "State": "Tennessee",
+        "City rank": "8",
+        "Crimes per day": "9.08"
+    },
+    {
+        "city name": "Kansas City",
+        "State": "Missouri",
+        "City rank": "9",
+        "Crimes per day": "17.68"
+    },
+    {
+        "city name": "Houston",
+        "State": "Texas",
+        "City rank": "10",
+        "Crimes per day": "81.85"
+    },
+    {
+        "city name": "Rockford",
+        "State": "<a href=\"https://www.populationu.com/gen/most-dangerous-cities-illinois\">Illinois</a>",
+        "City rank": "11",
+        "Crimes per day": "3.31"
+    },
+    {
+        "city name": "Springfield",
+        "State": "Missouri",
+        "City rank": "12",
+        "Crimes per day": "9.32"
+    },
+    {
+        "city name": "Wichita",
+        "State": "Kansas",
+        "City rank": "13",
+        "Crimes per day": "15.35"
+    },
+    {
+        "city name": "Winston-Salem",
+        "State": "North Carolina",
+        "City rank": "14",
+        "Crimes per day": "8.39"
+    },
+    {
+        "city name": "Beaumont",
+        "State": "Texas",
+        "City rank": "15",
+        "Crimes per day": "2.92"
+    },
+    {
+        "city name": "Tulsa",
+        "State": "Oklahoma",
+        "City rank": "16",
+        "Crimes per day": "16.39"
+    },
+    {
+        "city name": "Nashville",
+        "State": "Tennessee",
+        "City rank": "17",
+        "Crimes per day": "19.94"
+    },
+    {
+        "city name": "Aurora",
+        "State": "Colorado",
+        "City rank": "18",
+        "Crimes per day": "13.93"
+    },
+    {
+        "city name": "Pueblo",
+        "State": "Colorado",
+        "City rank": "19",
+        "Crimes per day": "4.65"
+    },
+    {
+        "city name": "Dayton",
+        "State": "Ohio",
+        "City rank": "20",
+        "Crimes per day": "3.98"
+    },
+    {
+        "city name": "Minneapolis",
+        "State": "Minnesota",
+        "City rank": "21",
+        "Crimes per day": "13.11"
+    },
+    {
+        "city name": "Lubbock",
+        "State": "Texas",
+        "City rank": "22",
+        "Crimes per day": "8.03"
+    },
+    {
+        "city name": "Billings",
+        "State": "Montana",
+        "City rank": "23",
+        "Crimes per day": "4.09"
+    },
+    {
+        "city name": "Atlanta",
+        "State": "Georgia",
+        "City rank": "24",
+        "Crimes per day": "16.73"
+    },
+    {
+        "city name": "Corpus Christi",
+        "State": "Texas",
+        "City rank": "25",
+        "Crimes per day": "9.1"
+    },
+    {
+        "city name": "Tacoma",
+        "State": "Washington",
+        "City rank": "26",
+        "Crimes per day": "9.85"
+    },
+    {
+        "city name": "Grand Rapids",
+        "State": "Michigan",
+        "City rank": "27",
+        "Crimes per day": "4.29"
+    },
+    {
+        "city name": "Dallas",
+        "State": "Texas",
+        "City rank": "28",
+        "Crimes per day": "36.48"
+    },
+    {
+        "city name": "Salt Lake City",
+        "State": "Utah",
+        "City rank": "29",
+        "Crimes per day": "11.23"
+    },
+    {
+        "city name": "Denver",
+        "State": "Colorado",
+        "City rank": "30",
+        "Crimes per day": "32.14"
+    },
+    {
+        "city name": "Buffalo",
+        "State": "New York",
+        "City rank": "31",
+        "Crimes per day": "6.24"
+    },
+    {
+        "city name": "Fayetteville",
+        "State": "North Carolina",
+        "City rank": "32",
+        "Crimes per day": "4.79"
+    },
+    {
+        "city name": "Toledo",
+        "State": "Ohio",
+        "City rank": "33",
+        "Crimes per day": "5.93"
+    },
+    {
+        "city name": "Springfield",
+        "State": "Illinois",
+        "City rank": "34",
+        "Crimes per day": "2.89"
+    },
+    {
+        "city name": "Knoxville",
+        "State": "Tennessee",
+        "City rank": "35",
+        "Crimes per day": "5.89"
+    },
+    {
+        "city name": "Columbia",
+        "State": "South Carolina",
+        "City rank": "36",
+        "Crimes per day": "4.45"
+    },
+    {
+        "city name": "Evansville",
+        "State": "Indiana",
+        "City rank": "37",
+        "Crimes per day": "3.06"
+    },
+    {
+        "city name": "Norfolk",
+        "State": "<a href=\"https://www.populationu.com/gen/most-dangerous-cities-virginia\">Virginia</a>",
+        "City rank": "38",
+        "Crimes per day": "5.43"
+    },
+    {
+        "city name": "Charlotte-Mecklenburg",
+        "State": "North Carolina",
+        "City rank": "39",
+        "Crimes per day": "23.41"
+    },
+    {
+        "city name": "St. Paul",
+        "State": "Minnesota",
+        "City rank": "40",
+        "Crimes per day": "10.07"
+    },
+    {
+        "city name": "Greensboro",
+        "State": "North Carolina",
+        "City rank": "41",
+        "Crimes per day": "8.08"
+    },
+    {
+        "city name": "Lakewood",
+        "State": "Colorado",
+        "City rank": "42",
+        "Crimes per day": "6.78"
+    },
+    {
+        "city name": "Cincinnati",
+        "State": "Ohio",
+        "City rank": "43",
+        "Crimes per day": "7.92"
+    },
+    {
+        "city name": "Independence",
+        "State": "Missouri",
+        "City rank": "44",
+        "Crimes per day": "3.76"
+    },
+    {
+        "city name": "Durham",
+        "State": "North Carolina",
+        "City rank": "45",
+        "Crimes per day": "7.55"
+    },
+    {
+        "city name": "Portland",
+        "State": "Oregon",
+        "City rank": "46",
+        "Crimes per day": "25"
+    },
+    {
+        "city name": "Pasadena",
+        "State": "Texas",
+        "City rank": "47",
+        "Crimes per day": "3.25"
+    },
+    {
+        "city name": "Spokane",
+        "State": "Washington",
+        "City rank": "48",
+        "Crimes per day": "7.57"
+    },
+    {
+        "city name": "San Antonio",
+        "State": "Texas",
+        "City rank": "49",
+        "Crimes per day": "42.9"
+    },
+    {
+        "city name": "Killeen",
+        "State": "Texas",
+        "City rank": "50",
+        "Crimes per day": "2.25"
+    },
+    {
+        "city name": "Seattle",
+        "State": "Washington",
+        "City rank": "51",
+        "Crimes per day": "28.25"
+    },
+    {
+        "city name": "Davenport",
+        "State": "Iowa",
+        "City rank": "52",
+        "Crimes per day": "2.55"
+    },
+    {
+        "city name": "Waco",
+        "State": "Texas",
+        "City rank": "53",
+        "Crimes per day": "2.88"
+    },
+    {
+        "city name": "Columbus",
+        "State": "Ohio",
+        "City rank": "54",
+        "Crimes per day": "21.95"
+    },
+    {
+        "city name": "Arlington",
+        "State": "Texas",
+        "City rank": "55",
+        "Crimes per day": "8.2"
+    },
+    {
+        "city name": "Oklahoma City",
+        "State": "Oklahoma",
+        "City rank": "56",
+        "Crimes per day": "18.39"
+    },
+    {
+        "city name": "Colorado Springs",
+        "State": "Colorado",
+        "City rank": "57",
+        "Crimes per day": "12.8"
+    },
+    {
+        "city name": "Reno",
+        "State": "Nevada",
+        "City rank": "58",
+        "Crimes per day": "5.88"
+    },
+    {
+        "city name": "Wichita Falls",
+        "State": "Texas",
+        "City rank": "59",
+        "Crimes per day": "2.52"
+    },
+    {
+        "city name": "Odessa",
+        "State": "Texas",
+        "City rank": "60",
+        "Crimes per day": "2.39"
+    },
+    {
+        "city name": "Yuma",
+        "State": "Arizona",
+        "City rank": "61",
+        "Crimes per day": "1.7"
+    },
+    {
+        "city name": "Columbia",
+        "State": "Missouri",
+        "City rank": "62",
+        "Crimes per day": "2.27"
+    },
+    {
+        "city name": "Bridgeport",
+        "State": "Connecticut",
+        "City rank": "63",
+        "Crimes per day": "1.99"
+    },
+    {
+        "city name": "Fort Worth",
+        "State": "Texas",
+        "City rank": "64",
+        "Crimes per day": "18.96"
+    },
+    {
+        "city name": "Clarksville",
+        "State": "Tennessee",
+        "City rank": "65",
+        "Crimes per day": "2.6"
+    },
+    {
+        "city name": "Elizabeth",
+        "State": "New Jersey",
+        "City rank": "66",
+        "Crimes per day": "2.02"
+    },
+    {
+        "city name": "Wilmington",
+        "State": "North Carolina",
+        "City rank": "67",
+        "Crimes per day": "2.47"
+    },
+    {
+        "city name": "El Cajon",
+        "State": "California",
+        "City rank": "68",
+        "Crimes per day": "1.61"
+    },
+    {
+        "city name": "Sioux Falls",
+        "State": "South Dakota",
+        "City rank": "69",
+        "Crimes per day": "4.7"
+    },
+    {
+        "city name": "Vancouver",
+        "State": "Washington",
+        "City rank": "70",
+        "Crimes per day": "6.26"
+    },
+    {
+        "city name": "Gresham",
+        "State": "Oregon",
+        "City rank": "71",
+        "Crimes per day": "2.21"
+    },
+    {
+        "city name": "Fargo",
+        "State": "North Dakota",
+        "City rank": "72",
+        "Crimes per day": "3.24"
+    },
+    {
+        "city name": "Salem",
+        "State": "Oregon",
+        "City rank": "73",
+        "Crimes per day": "4.41"
+    },
+    {
+        "city name": "Mesquite",
+        "State": "Texas",
+        "City rank": "74",
+        "Crimes per day": "3.38"
+    },
+    {
+        "city name": "Austin",
+        "State": "Texas",
+        "City rank": "75",
+        "Crimes per day": "26.26"
+    },
+    {
+        "city name": "Boston",
+        "State": "<a href=\"https://www.populationu.com/gen/most-dangerous-cities-massachusetts\">Massachusetts</a>",
+        "City rank": "76",
+        "Crimes per day": "8.77"
+    },
+    {
+        "city name": "Warren",
+        "State": "Michigan",
+        "City rank": "77",
+        "Crimes per day": "1.65"
+    },
+    {
+        "city name": "High Point",
+        "State": "North Carolina",
+        "City rank": "78",
+        "Crimes per day": "2.39"
+    },
+    {
+        "city name": "Las Vegas",
+        "State": "Nevada",
+        "City rank": "79",
+        "Crimes per day": "33.02"
+    },
+    {
+        "city name": "Athens-Clarke County",
+        "State": "Georgia",
+        "City rank": "80",
+        "Crimes per day": "2.48"
+    },
+    {
+        "city name": "Tyler",
+        "State": "Texas",
+        "City rank": "81",
+        "Crimes per day": "2.32"
+    },
+    {
+        "city name": "San Angelo",
+        "State": "Texas",
+        "City rank": "82",
+        "Crimes per day": "2.03"
+    },
+    {
+        "city name": "Westminster",
+        "State": "Colorado",
+        "City rank": "83",
+        "Crimes per day": "3.88"
+    },
+    {
+        "city name": "Manchester",
+        "State": "New Hampshire",
+        "City rank": "84",
+        "Crimes per day": "1.54"
+    },
+    {
+        "city name": "<a href=\"https://www.populationu.com/cities/sparks-nv-population\">Sparks</a>",
+        "State": "Nevada",
+        "City rank": "85",
+        "Crimes per day": "2.05"
+    },
+    {
+        "city name": "Chesapeake",
+        "State": "Virginia",
+        "City rank": "86",
+        "Crimes per day": "2.75"
+    },
+    {
+        "city name": "North Las Vegas",
+        "State": "Nevada",
+        "City rank": "87",
+        "Crimes per day": "3.57"
+    },
+    {
+        "city name": "Brownsville",
+        "State": "Texas",
+        "City rank": "88",
+        "Crimes per day": "2.68"
+    },
+    {
+        "city name": "Eugene",
+        "State": "Oregon",
+        "City rank": "89",
+        "Crimes per day": "4.57"
+    },
+    {
+        "city name": "Charleston",
+        "State": "South Carolina",
+        "City rank": "90",
+        "Crimes per day": "2.44"
+    },
+    {
+        "city name": "Abilene",
+        "State": "Texas",
+        "City rank": "91",
+        "Crimes per day": "1.86"
+    },
+    {
+        "city name": "<a href=\"https://www.populationu.com/cities/greeley-co-population\">Greeley</a>",
+        "State": "Colorado",
+        "City rank": "92",
+        "Crimes per day": "2.21"
+    },
+    {
+        "city name": "Mesa",
+        "State": "Arizona",
+        "City rank": "93",
+        "Crimes per day": "8.1"
+    },
+    {
+        "city name": "Raleigh",
+        "State": "North Carolina",
+        "City rank": "94",
+        "Crimes per day": "7.37"
+    },
+    {
+        "city name": "Oceanside",
+        "State": "California",
+        "City rank": "95",
+        "Crimes per day": "2.7"
+    },
+    {
+        "city name": "West Valley",
+        "State": "Utah",
+        "City rank": "96",
+        "Crimes per day": "3.11"
+    },
+    {
+        "city name": "San Diego",
+        "State": "California",
+        "City rank": "97",
+        "Crimes per day": "20.55"
+    },
+    {
+        "city name": "Lincoln",
+        "State": "Nebraska",
+        "City rank": "98",
+        "Crimes per day": "5.24"
+    },
+    {
+        "city name": "Murfreesboro",
+        "State": "Tennessee",
+        "City rank": "99",
+        "Crimes per day": "2.67"
+    },
+    {
+        "city name": "Norman",
+        "State": "Oklahoma",
+        "City rank": "100",
+        "Crimes per day": "2.68"
+    },
+    {
+        "city name": "Richmond",
+        "State": "Virginia",
+        "City rank": "101",
+        "Crimes per day": "3.93"
+    },
+    {
+        "city name": "Chula Vista",
+        "State": "California",
+        "City rank": "102",
+        "Crimes per day": "3.02"
+    },
+    {
+        "city name": "Providence",
+        "State": "Rhode Island",
+        "City rank": "103",
+        "Crimes per day": "3.06"
+    },
+    {
+        "city name": "Edinburg",
+        "State": "Texas",
+        "City rank": "104",
+        "Crimes per day": "1.75"
+    },
+    {
+        "city name": "Kent",
+        "State": "Washington",
+        "City rank": "105",
+        "Crimes per day": "4.01"
+    },
+    {
+        "city name": "Everett",
+        "State": "Washington",
+        "City rank": "106",
+        "Crimes per day": "3.26"
+    },
+    {
+        "city name": "Irving",
+        "State": "Texas",
+        "City rank": "107",
+        "Crimes per day": "4.25"
+    },
+    {
+        "city name": "Escondido",
+        "State": "California",
+        "City rank": "108",
+        "Crimes per day": "2.24"
+    },
+    {
+        "city name": "Midland",
+        "State": "Texas",
+        "City rank": "109",
+        "Crimes per day": "1.37"
+    },
+    {
+        "city name": "<a href=\"https://www.populationu.com/cities/boulder-co-population\">Boulder</a>",
+        "State": "Colorado",
+        "City rank": "110",
+        "Crimes per day": "2.41"
+    },
+    {
+        "city name": "Cedar Rapids",
+        "State": "Iowa",
+        "City rank": "111",
+        "Crimes per day": "2.52"
+    },
+    {
+        "city name": "Hampton",
+        "State": "Virginia",
+        "City rank": "112",
+        "Crimes per day": "2.15"
+    },
+    {
+        "city name": "Hillsboro",
+        "State": "Oregon",
+        "City rank": "113",
+        "Crimes per day": "1.65"
+    },
+    {
+        "city name": "Clinton Township",
+        "State": "Michigan",
+        "City rank": "114",
+        "Crimes per day": "0.99"
+    },
+    {
+        "city name": "Thornton",
+        "State": "Colorado",
+        "City rank": "115",
+        "Crimes per day": "3.76"
+    },
+    {
+        "city name": "Lexington",
+        "State": "Kentucky",
+        "City rank": "116",
+        "Crimes per day": "6.41"
+    },
+    {
+        "city name": "Peoria",
+        "State": "Arizona",
+        "City rank": "117",
+        "Crimes per day": "2.28"
+    },
+    {
+        "city name": "Lowell",
+        "State": "Massachusetts",
+        "City rank": "118",
+        "Crimes per day": "1.03"
+    },
+    {
+        "city name": "Green Bay",
+        "State": "Wisconsin",
+        "City rank": "119",
+        "Crimes per day": "1.08"
+    },
+    {
+        "city name": "Fort Collins",
+        "State": "Colorado",
+        "City rank": "120",
+        "Crimes per day": "2.13"
+    },
+    {
+        "city name": "Madison",
+        "State": "Wisconsin",
+        "City rank": "121",
+        "Crimes per day": "4.27"
+    },
+    {
+        "city name": "Arvada",
+        "State": "Colorado",
+        "City rank": "122",
+        "Crimes per day": "3.13"
+    },
+    {
+        "city name": "Denton",
+        "State": "Texas",
+        "City rank": "123",
+        "Crimes per day": "2.13"
+    },
+    {
+        "city name": "Cambridge",
+        "State": "Massachusetts",
+        "City rank": "124",
+        "Crimes per day": "1.62"
+    },
+    {
+        "city name": "Honolulu",
+        "State": "Hawaii",
+        "City rank": "125",
+        "Crimes per day": "21.77"
+    },
+    {
+        "city name": "Laredo",
+        "State": "Texas",
+        "City rank": "126",
+        "Crimes per day": "2.44"
+    },
+    {
+        "city name": "Boise",
+        "State": "Idaho",
+        "City rank": "127",
+        "Crimes per day": "2.46"
+    },
+    {
+        "city name": "Garland",
+        "State": "Texas",
+        "City rank": "128",
+        "Crimes per day": "3.97"
+    },
+    {
+        "city name": "Olathe",
+        "State": "Kansas",
+        "City rank": "129",
+        "Crimes per day": "1.41"
+    },
+    {
+        "city name": "Waterbury",
+        "State": "Connecticut",
+        "City rank": "130",
+        "Crimes per day": "2.3"
+    },
+    {
+        "city name": "El Paso",
+        "State": "Texas",
+        "City rank": "131",
+        "Crimes per day": "7.44"
+    },
+    {
+        "city name": "West Jordan",
+        "State": "Utah",
+        "City rank": "132",
+        "Crimes per day": "1.91"
+    },
+    {
+        "city name": "Lewisville",
+        "State": "Texas",
+        "City rank": "133",
+        "Crimes per day": "1.44"
+    },
+    {
+        "city name": "Rochester",
+        "State": "Minnesota",
+        "City rank": "134",
+        "Crimes per day": "1.83"
+    },
+    {
+        "city name": "Ann Arbor",
+        "State": "Michigan",
+        "City rank": "135",
+        "Crimes per day": "1.05"
+    },
+    {
+        "city name": "Fort Wayne",
+        "State": "Indiana",
+        "City rank": "136",
+        "Crimes per day": "4.26"
+    },
+    {
+        "city name": "Overland Park",
+        "State": "Kansas",
+        "City rank": "137",
+        "Crimes per day": "3.13"
+    },
+    {
+        "city name": "Scottsdale",
+        "State": "Arizona",
+        "City rank": "138",
+        "Crimes per day": "4.4"
+    },
+    {
+        "city name": "New Braunfels",
+        "State": "Texas",
+        "City rank": "139",
+        "Crimes per day": "0.96"
+    },
+    {
+        "city name": "Grand Prairie",
+        "State": "Texas",
+        "City rank": "140",
+        "Crimes per day": "2.63"
+    },
+    {
+        "city name": "Henderson",
+        "State": "Nevada",
+        "City rank": "141",
+        "Crimes per day": "3.85"
+    },
+    {
+        "city name": "<a href=\"https://www.populationu.com/cities/centennial-co-population\">Centennial</a>",
+        "State": "Colorado",
+        "City rank": "142",
+        "Crimes per day": "1.76"
+    },
+    {
+        "city name": "Alexandria",
+        "State": "Virginia",
+        "City rank": "143",
+        "Crimes per day": "1.74"
+    },
+    {
+        "city name": "Chandler",
+        "State": "Arizona",
+        "City rank": "144",
+        "Crimes per day": "3.51"
+    },
+    {
+        "city name": "Carrollton",
+        "State": "Texas",
+        "City rank": "145",
+        "Crimes per day": "1.36"
+    },
+    {
+        "city name": "Carlsbad",
+        "State": "California",
+        "City rank": "146",
+        "Crimes per day": "1.54"
+    },
+    {
+        "city name": "Round Rock",
+        "State": "Texas",
+        "City rank": "147",
+        "Crimes per day": "1.58"
+    },
+    {
+        "city name": "Meridian",
+        "State": "Idaho",
+        "City rank": "148",
+        "Crimes per day": "0.81"
+    },
+    {
+        "city name": "Sterling Heights",
+        "State": "Michigan",
+        "City rank": "149",
+        "Crimes per day": "0.88"
+    },
+    {
+        "city name": "Broken Arrow",
+        "State": "Oklahoma",
+        "City rank": "150",
+        "Crimes per day": "1.48"
+    },
+    {
+        "city name": "Sandy Springs",
+        "State": "Georgia",
+        "City rank": "151",
+        "Crimes per day": "1.32"
+    },
+    {
+        "city name": "Plano",
+        "State": "Texas",
+        "City rank": "152",
+        "Crimes per day": "3.18"
+    },
+    {
+        "city name": "College Station",
+        "State": "Texas",
+        "City rank": "153",
+        "Crimes per day": "1.57"
+    },
+    {
+        "city name": "Richardson",
+        "State": "Texas",
+        "City rank": "154",
+        "Crimes per day": "1.76"
+    },
+    {
+        "city name": "Orem",
+        "State": "Utah",
+        "City rank": "155",
+        "Crimes per day": "1.27"
+    },
+    {
+        "city name": "Stamford",
+        "State": "Connecticut",
+        "City rank": "156",
+        "Crimes per day": "1.2"
+    },
+    {
+        "city name": "Bend",
+        "State": "Oregon",
+        "City rank": "157",
+        "Crimes per day": "1.17"
+    },
+    {
+        "city name": "Surprise",
+        "State": "Arizona",
+        "City rank": "158",
+        "Crimes per day": "1.58"
+    },
+    {
+        "city name": "Newark",
+        "State": "New Jersey",
+        "City rank": "159",
+        "Crimes per day": "0.68"
+    },
+    {
+        "city name": "McAllen",
+        "State": "Texas",
+        "City rank": "160",
+        "Crimes per day": "1.93"
+    },
+    {
+        "city name": "Bellevue",
+        "State": "Washington",
+        "City rank": "161",
+        "Crimes per day": "3.4"
+    },
+    {
+        "city name": "Lee's Summit",
+        "State": "Missouri",
+        "City rank": "162",
+        "Crimes per day": "1.06"
+    },
+    {
+        "city name": "McKinney",
+        "State": "Texas",
+        "City rank": "163",
+        "Crimes per day": "1.5"
+    },
+    {
+        "city name": "Pearland",
+        "State": "Texas",
+        "City rank": "164",
+        "Crimes per day": "1.29"
+    },
+    {
+        "city name": "Provo",
+        "State": "Utah",
+        "City rank": "165",
+        "Crimes per day": "1.14"
+    },
+    {
+        "city name": "Virginia Beach",
+        "State": "Virginia",
+        "City rank": "166",
+        "Crimes per day": "4.1"
+    },
+    {
+        "city name": "Gilbert",
+        "State": "Arizona",
+        "City rank": "167",
+        "Crimes per day": "2.3"
+    },
+    {
+        "city name": "League City",
+        "State": "Texas",
+        "City rank": "168",
+        "Crimes per day": "1.03"
+    },
+    {
+        "city name": "Frisco",
+        "State": "Texas",
+        "City rank": "169",
+        "Crimes per day": "1.32"
+    },
+    {
+        "city name": "Concord",
+        "State": "North Carolina",
+        "City rank": "170",
+        "Crimes per day": "0.75"
+    },
+    {
+        "city name": "Jersey City",
+        "State": "New Jersey",
+        "City rank": "171",
+        "Crimes per day": "1.28"
+    },
+    {
+        "city name": "Cary",
+        "State": "North Carolina",
+        "City rank": "172",
+        "Crimes per day": "1.31"
+    },
+    {
+        "city name": "Sugar Land",
+        "State": "Texas",
+        "City rank": "173",
+        "Crimes per day": "0.99"
+    },
+    {
+        "city name": "Joliet",
+        "State": "Illinois",
+        "City rank": "174",
+        "Crimes per day": "0.13"
+    },
+    {
+        "city name": "Carmel",
+        "State": "Indiana",
+        "City rank": "175",
+        "Crimes per day": "0.44"
+    }
+]
