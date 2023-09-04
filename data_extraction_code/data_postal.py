@@ -38,7 +38,7 @@ for i in range(2,count1+1):
 with open("postal.json", 'w') as myfile:
     myfile.write(json.dumps(univ,indent = 4))
 
-with open('universities.json','r') as myfile:  
+with open('./json_files/universities.json','r') as myfile:  
   data = json.load(myfile)  
 print(data)
 

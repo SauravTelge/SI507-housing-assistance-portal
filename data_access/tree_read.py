@@ -1,4 +1,4 @@
 import json
-with open('tree_crimes.json','r') as myfile:  
+with open('tree_./json_files/crimes.json','r') as myfile:  
             data = json.load(myfile)  
             print(data)

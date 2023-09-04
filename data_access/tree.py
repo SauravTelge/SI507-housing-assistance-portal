@@ -1,13 +1,27 @@
+"""A module that defines a basic Binary Search Tree (BST) data structure (`BSTNode` class)
+and a `crimes` class to process and store crime data in the BST.
+"""
 import json
 import pickle
+
 class BSTNode:
+    """Binary Search Tree Node that defines basic operations for BST such as insert, delete, and traversal methods.
+    
+    Attributes:
+        val: The value of the node.
+        key: The key of the node.
+        left: Pointer to the left child.
+        right: Pointer to the right child.
+    """
     def __init__(self, val=None,key = None):
+        """Initialize a new BST node with optional value and key."""
         self.left = None
         self.right = None
         self.val = val
         self.key = key
 
     def insert(self, val,key):
+        """Insert a value with its corresponding key into the BST."""
         if not self.val:
             self.val = val
             self.key = key
@@ -29,6 +43,7 @@ class BSTNode:
         self.right = BSTNode(val,key)
 
     def delete(self, val,key):
+        """Delete a node with a given value and key from the BST."""
         if self == None:
             return self
         if val < self.val:
@@ -51,6 +66,7 @@ class BSTNode:
         return self
 
     def exists(self, key):
+        """Check if a node with a given key exists in the BST."""
         print('key',key)
         print('stored key',self.key)
         if key == self.key:
@@ -65,18 +81,21 @@ class BSTNode:
             return False
         return self.right.exists(key)
     def get_min(self):
+        """Return the minimum value node in the BST."""
         current = self
         while current.left is not None:
             current = current.left
         return current.val
 
     def get_max(self):
+        """Return the maximum value node in the BST."""
         current = self
         while current.right is not None:
             current = current.right
         return current.val
 
     def preorder(self, vals):
+        """Pre-order traversal of the BST."""
         if self.val is not None:
             vals.append([self.val,self.key])
         if self.left is not None:
@@ -86,6 +105,7 @@ class BSTNode:
         return vals
 
     def inorder(self, vals):
+        """In-order traversal of the BST."""
         if self.left is not None:
             self.left.inorder(vals)
         if self.val is not None:
@@ -95,6 +115,7 @@ class BSTNode:
         return vals
 
     def postorder(self, vals):
+        """Post-order traversal of the BST."""
         if self.left is not None:
             self.left.postorder(vals)
         if self.right is not None:
@@ -104,30 +125,26 @@ class BSTNode:
         return vals
     
     def toJson(self):
+        """Convert the BST to a JSON string."""
         return json.dumps(self, default=lambda o: o.__dict__)
 
 
 class crimes:
-
+    """Class for processing crime data and storing it in a BST."""
     def data_tree_crimes():
+        """Read crime data from a JSON file and store it in a BST. The BST is then pickled for persistence."""
         bst = BSTNode()
-        with open('crimes_new.json','r') as myfile:
+        with open('./json_files/crimes_new.json','r') as myfile:
             data = json.load(myfile)
 
         for i in range(len(data)):
 
             bst.insert([data[i]['city name'],float(data[i]['Crimes per day']),data[i]['State']],int(data[i]['City rank']))
-       
-        # with open("tree_crimes.json", 'w') as myfile:
-        #     myfile.write(json.dumps(bst.toJson(),indent = 4))
-
+    
         
-        with open(f'tree_crimes.pickle', 'wb') as f:
+        with open(f'./json_files/tree_crimes.pickle', 'wb') as f:
             pickle.dump(bst, f)
-        # with open(f'tree_crimes.pickle', 'rb') as f:
-        #     crime_tree = pickle.load(f)
-
-        # print(crime_tree.preorder([]))
+    # Call the method to process the data
     data_tree_crimes()
 
 

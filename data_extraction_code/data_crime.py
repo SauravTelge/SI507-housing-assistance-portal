@@ -38,9 +38,9 @@ random.shuffle(crime)
 
    
 # store all the details in a JSON
-with open("crimes_new.json", 'w') as myfile:
+with open("./json_files/crimes_new.json", 'w') as myfile:
     myfile.write(json.dumps(crime,indent = 4))
 
-with open('crimes_new.json','r') as myfile:  
+with open('./json_files/crimes_new.json','r') as myfile:  
   data = json.load(myfile)  
 print(data)
