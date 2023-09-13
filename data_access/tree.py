@@ -3,7 +3,7 @@ import pickle
 from extra_files.save_file import readWriteFile
 
 
-class BSTNode:
+class bstNode:
     """
     Binary Search Tree Node that defines basic operations for BST.
 
@@ -58,13 +58,13 @@ class BSTNode:
             if self.left:
                 self.left.insert(val, key)
                 return
-            self.left = BSTNode(val, key)
+            self.left = bstNode(val, key)
             return
 
         if self.right:
             self.right.insert(val, key)
             return
-        self.right = BSTNode(val, key)
+        self.right = bstNode(val, key)
 
     def delete(self, val, key):
         """
@@ -237,7 +237,7 @@ class BSTNode:
         return json.dumps(self, default=lambda o: o.__dict__)
 
 
-class crimes:
+class trialCrimes:
     """
     Class for processing crime data and storing it in a BST.
     """
@@ -247,7 +247,7 @@ class crimes:
         Read crime data from a JSON file and store it in a BST.
         The BST is then pickled for persistence.
         """
-        bst = BSTNode()
+        bst = bstNode()
         data = readWriteFile.readFile("./json_files/crimes_new.json")
         
 

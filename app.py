@@ -1,14 +1,13 @@
 from flask import Flask, render_template, request
 import json
 import string
-from data_API.api_weather import Weather
+from data_API.api_data import apiData
 from datetime import date
 import plotly
 import plotly.express as px
 import pandas as pd
 import pickle
-from data_API.city_state import city_search
-
+from extra_files.save_file import readWriteFile
 app = Flask(__name__)  # Initialize the Flask application
 
 """
@@ -51,9 +50,7 @@ def crime_stats():
     -------
         render_template: Renders the 'crime.html' template with the loaded data.
     """
-    with open("./json_files/crimes_new.json", "r") as myfile:
-        # Open and read the crime data file
-        data1 = json.load(myfile)
+    data1 = readWriteFile.readFile("./json_files/crimes_new.json")
     return render_template(
         "crime.html", data1=data1
     )  # Serve the crime stats page with data
@@ -93,8 +90,8 @@ def results():
     if request.method == "POST":
         # Extract university name from form data
         univname = request.form["uniname"]
-        with open("./json_files/universities.json", "r") as myfile:
-            data = json.load(myfile)
+        data = readWriteFile.readFile("./json_files/universities.json")
+    
         for i in range(len(data)):
             if univname == data[i]["university name"]:
                 univcity = data[i]["university town"]
@@ -102,8 +99,7 @@ def results():
         test_str = univcity.translate(str.maketrans("", "", string.punctuation))
         test_str = test_str.strip()
 
-        with open("./json_files/crimes_new.json", "r") as myfile:
-            data = json.load(myfile)
+        data = readWriteFile.readFile("./json_files/crimes_new.json")
 
         for i in range(len(data)):
             if test_str == data[i]["city name"].strip():
@@ -117,10 +113,10 @@ def results():
                 state = "No data available"
 
         if state == "No data available":
-            val = city_search.city_state(test_str)
+            val = apiData.city_state(test_str)
         else:
             today = date.today()
-            weather_data_forecast, weather_data_history = Weather.weather_data(
+            weather_data_forecast, weather_data_history = apiData.weather_data(
                 test_str,
                 str(today.year - 3)
                 + "-"
@@ -192,8 +188,9 @@ def crime():
     if request.method == "POST":
         crime = (request.form["crime"]).strip()
         crime = int(crime)
-        with open("./json_files/crimes.json", "r") as myfile:
-            data = json.load(myfile)
+
+        data = readWriteFile.readFile("./json_files/crimes.json")
+        
         with open(f"./json_files/tree_crimes.pickle", "rb") as f:
             crime_tree = pickle.load(f)
 
