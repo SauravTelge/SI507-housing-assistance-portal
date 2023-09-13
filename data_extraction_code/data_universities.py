@@ -1,3 +1,5 @@
+### RUN THIS FILE ONLY ONCE
+
 # import all the required libraries
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -7,7 +9,7 @@ from selenium.common.exceptions import TimeoutException  # timeout if not found
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import json
-
+from extra_files.save_file import readWriteFile
 # initialise chrome driver
 options = webdriver.ChromeOptions()
 options.add_argument("--ignore-certificate-errors")
@@ -53,9 +55,5 @@ with open("universities.csv", "w") as myfile:
         myfile.write("\n")
 
 # store all the details in a JSON
-with open("./json_files/universities.json", "w") as myfile:
-    myfile.write(json.dumps(univ, indent=4))
+readWriteFile.writeFile("./json_files/universities.json",univ)
 
-with open("./json_files/universities.json", "r") as myfile:
-    data = json.load(myfile)
-print(data)

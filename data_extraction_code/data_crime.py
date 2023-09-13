@@ -1,4 +1,4 @@
-import random
+### RUN THIS FILE ONLY ONCE
 
 # import all the required libraries
 from selenium import webdriver
@@ -8,9 +8,9 @@ from selenium.webdriver.support import expected_conditions as EC  # error handli
 from selenium.common.exceptions import TimeoutException  # timeout if not found
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
-
-# initialise chrome driver
 import json
+import random
+from extra_files.save_file import readWriteFile
 
 options = webdriver.ChromeOptions()
 options.add_argument("--ignore-certificate-errors")
@@ -52,9 +52,5 @@ random.shuffle(crime)
 
 
 # store all the details in a JSON
-with open("./json_files/crimes_new.json", "w") as myfile:
-    myfile.write(json.dumps(crime, indent=4))
+readWriteFile.writeFile("./json_files/crimes_new.json",crime)
 
-with open("./json_files/crimes_new.json", "r") as myfile:
-    data = json.load(myfile)
-print(data)

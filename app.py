@@ -33,7 +33,8 @@ def home():
     """
     Route for the home page.
 
-    Returns:
+    Returns
+    -------
         render_template: Renders the 'index.html' template.
     """
     return render_template("index.html")  # Serve the main index page
@@ -46,7 +47,8 @@ def crime_stats():
 
     Reads data from a JSON file and passes it to the 'crime.html' template for rendering.
 
-    Returns:
+    Returns
+    -------
         render_template: Renders the 'crime.html' template with the loaded data.
     """
     with open("./json_files/crimes_new.json", "r") as myfile:
@@ -62,7 +64,8 @@ def housing_stats():
     """
     Route for displaying housing statistics.
 
-    Returns:
+    Returns
+    -------
         render_template: Renders the 'datatables.html' template.
     """
     return render_template("datatables.html")  # Serve the housing stats page
@@ -81,7 +84,8 @@ def results():
     On POST request, fetches relevant data associated with the given university,
     processes it, and passes the processed data to the 'data.html' template.
 
-    Returns:
+    Returns
+    -------
         render_template: Renders the 'data.html' template with the relevant data.
     """
 
@@ -181,7 +185,8 @@ def crime():
     On POST request, fetches relevant data associated with the given crime input,
     processes it, and passes the processed data to the 'results.html' template.
 
-    Returns:
+    Returns
+    -------
         render_template: Renders the 'results.html' template with the relevant data.
     """
     if request.method == "POST":

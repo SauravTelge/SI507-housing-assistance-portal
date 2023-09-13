@@ -1,5 +1,6 @@
 import requests
 import json
+from extra_files.save_file import readWriteFile
 
 """
 This module provides functionality to fetch weather data (both historical and forecasted)
@@ -60,10 +61,12 @@ class Weather:
 
         response_history = response_history.json()
         # store all the details in a JSON
-        with open("./json_files/response_forecast.json", "w") as myfile:
-            myfile.write(json.dumps(response_forecast, indent=4))
+        readWriteFile.writeFile("./json_files/response_forecast.json",response_forecast)
+        # with open("./json_files/response_forecast.json", "w") as myfile:
+        #     myfile.write(json.dumps(response_forecast, indent=4))
             # store all the details in a JSON
-        with open("./json_files/response_history.json", "w") as myfile:
-            myfile.write(json.dumps(response_history, indent=4))
+        readWriteFile.writeFile("./json_files/response_history.json",response_history)
+        # with open("./json_files/response_history.json", "w") as myfile:
+        #     myfile.write(json.dumps(response_history, indent=4))
 
         return (response_forecast, response_history)
